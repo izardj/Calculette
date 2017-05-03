@@ -7,7 +7,6 @@ import javax.ejb.Stateless;
  * Session Bean implementation class Calculatrice
  */
 @Stateless
-@LocalBean
 public class Calculatrice implements CalculatriceRemote, CalculatriceLocal {
 
 	/**
